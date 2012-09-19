@@ -1,0 +1,83 @@
+@charset "utf-8";
+*{margin:0; padding:0; border:none; text-decoration:none}
+html, body { height:100%}
+body { background-repeat:repeat;}
+@font-face{ 
+	font-family: 'pfagorasanspro'; 
+	src: url('/fonts/pfagorasanspro-medium-webfont.eot'); 
+	src: url('/fonts/pfagorasanspro-medium-webfont.eot?#iefix') format('embedded-opentype'), 
+		url('/fonts/pfagorasanspro-medium-webfont.woff') format('woff'), 
+		url('/fonts/pfagorasanspro-medium-webfont.ttf') format('truetype'), 
+		url('/fonts/pfagorasanspro-medium-webfont.svg#webfont') format('svg'); 
+}
+h1{font-family: 'pfagorasanspro'; font-size:75px; text-align:center; width:100%; color:#333; text-transform:uppercase}
+h2{font-family: 'pfagorasanspro'; font-size:40px; text-align:center; width:100%; color:#333; text-transform:uppercase}
+h3{font-family: 'pfagorasanspro'; font-size:25px; text-align:center; width:100%; color:#666; padding-bottom:40px; border-bottom:2px solid #E5E5E5;}
+.SectionWrap{ width:1100px; height:auto; padding-top:65px; margin: 0px auto;}
+.Container{margin:0 auto; width:1024px; height:auto; padding:20px 0; position:relative;}
+#header{ height:400px; background-image:url(../images/bg-body.jpg);}
+#topBar{
+	height:10px; 
+	width:100%;
+	position:fixed;
+	top:0;
+	z-index:80;
+	background-image: linear-gradient(center left , #791732, #c61f43);
+	background-image: -webkit-gradient(linear, center left , from(#791732), to(#c61f43));
+	background-image: -webkit-linear-gradient(center left , #791732, #c61f43);
+	background-image: -moz-linear-gradient(center left , #791732, #c61f43);
+	background-image: -ms-linear-gradient(center left , #791732, #c61f43);
+	background-image: -o-linear-gradient(center left , #791732, #c61f43);
+	background-color: #c61f43;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4)
+}
+#headText{position:fixed; top:300px;}
+#headText b{color:#c61f43;}
+#content{ width:100%; height:auto; background-color:#FFF; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); position:relative; z-index:90; overflow:auto}
+#footer{width:100%; height:auto; min-height:3%; background-color:#333; padding:20px 0; text-align:center; color:#CCC; font-size:11px; font-family:Verdana, Geneva, sans-serif}
+input[type=text]{height:38px; border:1px solid #CCC; color:#666; min-width:250px; border-radius:3px; padding:0px 10px; font-size:20px; font-weight:600; text-align:center}
+#logo{position:fixed; top:50; margin:0px 0 0 190px; z-index:10 }
+#noImg{border-radius: 3px; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); margin:0px auto;}
+#winnerDescription{padding:30px 0; font-family:Verdana, Geneva, sans-serif; font-size:18px; font-weight:600; line-height:26px; color:#666}
+#winnerDescription b{font-family: 'pfagorasanspro'; font-size:25px; color:#666; padding-bottom:20px;}
+font{color:#c61f43;}
+#winnerTable{font-family:Verdana, Geneva, sans-serif; font-size:18px; font-weight:600; line-height:26px; color:#666; margin-left:212px}
+#winnerTable tr{vertical-align:top}
+.answer{font-weight:400; font-size:14px; width:300px}
+#form{background-color:#c61f43; height:500px; position:relative }
+#form h1{color:#FFF}
+#formTable{ position:absolute; top:0px; width:700px; margin: -200px 0 0 162px;}
+#formTable{text-align:center}
+#formTable b{ font-family:Verdana, Geneva, sans-serif; font-size:13px; color:#FFF}
+.GreyBTN{
+	height:32px;
+	border-radius:2px;
+	background-color:#F5F5F5;
+	margin:3px;
+	background-image: -webkit-gradient(linear, center top , from(#F5F5F5), to(#E5E5E5));
+	background-image: -webkit-linear-gradient(center top , #F5F5F5, #E5E5E5);
+	background-image: -moz-linear-gradient(center top , #F5F5F5, #E5E5E5);
+	background-image: -ms-linear-gradient(center top , #F5F5F5, #E5E5E5);
+	background-image: -o-linear-gradient(#F5F5F5, #E5E5E5);
+	background-image: linear-gradient(center top , #F5F5F5, #E5E5E5);
+	border:1px solid #E5E5E5;
+	color:#666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-align:center;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+	min-width:77px;
+	font-weight:600;
+	background-repeat:no-repeat;
+	padding:0px 10px
+}
+.GreyBTN:hover{
+	border:1px solid #CCC;
+	cursor:pointer;
+	background-image: -webkit-gradient(linear, center top , #E5E5E5, #D5D5D5);
+	background-image: -webkit-linear-gradient(center top , #E5E5E5, #D5D5D5);
+	background-image: -moz-linear-gradient(center top , #E5E5E5, #D5D5D5);
+	background-image: -ms-linear-gradient(center top , #E5E5E5, #D5D5D5);
+	background-image: -o-linear-gradient(#E5E5E5, #D5D5D5);
+	background-image: linear-gradient(center top , #E5E5E5, #D5D5D5);
+}
